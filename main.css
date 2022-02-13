@@ -1,0 +1,176 @@
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #444;
+    font-family: serif;
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /* border-bottom: 1px solid #e8e8e8; */
+    padding-top: 32px;
+    padding-bottom: 10px;
+    /* min-height: 160px; */
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: #444;
+}
+
+nav a {
+    padding: 0 4px 0 5px;
+    color: #999;
+}
+
+main {
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+article .date {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #999;
+    text-align: center;
+}
+
+article .author {
+    color: #999;
+    text-align: right;
+}
+
+article dl dt {
+    display: none;
+}
+
+article dl dd {
+    display: inline;
+    margin-left: 0;
+}
+
+article hr {
+    border: 0.3px solid #e8e8e8;
+}
+
+.aside {
+    color: #999;
+}
+
+.aside a {
+    color: #999;
+}
+
+.post-list {
+    padding-left: 0px;
+}
+
+.post-list li {
+    list-style-type: none;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.post-list li:hover {
+    list-style-type: none;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.post-list li a {
+    padding: 10px 0 10px 0;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.post-list li .meta {
+    color: #999;
+    text-align: right;
+}
+
+.atom-feed {
+    text-align: right;
+}
+
+.atom-feed a {
+    color: #999;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main img {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+h2,
+h3 {
+    line-height: 1.2;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    display: inline;
+}
+
+blockquote {
+    /* background: #f9f9f9; */
+    font-style: italic;
+    font-family: serif;
+    /* border-left: 5px solid #ccc; */
+    margin: 2em 10px;
+    padding: 0.5em 10px;
+}
+
+pre {
+    background:#f0f0f0;
+    padding:20px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#projects ul li {
+    margin-bottom: 10px;
+}
+
+#links ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 40px;
+    width: 100%;
+    text-align: right;
+    font-weight: 200;
+    align-self: flex-end;
+}
+
+footer .icon {
+    width: 24px;
+    margin-right: 5px;
+}
