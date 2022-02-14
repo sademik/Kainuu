@@ -1,7 +1,7 @@
 body {
     line-height: 1.6;
     font-size: 16px;
-    color: #444;
+    color: #999;
     font-family: serif;
     margin: auto;
     padding: 0;
@@ -11,6 +11,11 @@ body {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+}
+
+body .last {
+  color: #999;
+
 }
 
 header {
@@ -26,7 +31,7 @@ nav {
 }
 
 a {
-    color: #444;
+    color: #999;
 }
 
 nav a {
