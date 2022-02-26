@@ -13,36 +13,120 @@ body {
     margin-right: auto;
 }
 
+/* Main Navigation */
+#nav {
+    position:right;
+    width:620px;
+    margin:0 auto;
+    margin-top:50px;
+    padding:10px;
+}
+ 
+ul#navigation {
+    margin:0px auto;
+    position:relative;
+    float:right;
+}
+ 
+ul#navigation li {
+    display:inline;
+    font-family: serif;
+    font-size:14px;
+    font-weight:regular;
+    margin:0;
+    padding:0;
+    float:left;
+    position:relative;
+}
+ 
+ul#navigation li a {
+    padding:10px 25px;
+    color:#999;
+    text-decoration:none;
+    display:inline-block;
+ 
+    -webkit-transition:color 0.2s linear, background 0.2s linear;
+    -moz-transition:color 0.2s linear, background 0.2s linear;
+    -o-transition:color 0.2s linear, background 0.2s linear;
+    transition:color 0.2s linear, background 0.2s linear;
+}
+ 
+ul#navigation li a:hover {
+    color:#999;
+    background:#c9c9c9;
+}
+ 
+ul#navigation li:hover > a {
+    background:#fff;
+}
+
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+    visibility:visible;
+    opacity:1;
+}
+ 
+ul#navigation ul, ul#navigation ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+    width:180px;
+    background:#f0f0f0;
+    -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -moz-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -o-transition:opacity 0.2s linear, visibility 0.2s linear;
+    transition:opacity 0.2s linear, visibility 0.2s linear;
+}
+ 
+ul#navigation ul {
+    top: 43px;
+    left: 1px;
+}
+ 
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px;
+}
+ 
+ul#navigation ul li {
+    clear:both;
+    width:100%;
+}
+ 
+ul#navigation ul li a {
+    background:#fff;
+    padding:7px 15px;
+    color:#999;
+    text-decoration:none;
+    display:inline-block;
+    border:0 none;
+    clear:both;
+    width:150px;
+}
+
 body .last {
   color: #999;
 
 }
 
 header {
-    /* border-bottom: 1px solid #e8e8e8; */
     padding-top: 32px;
     padding-bottom: 10px;
-    /* min-height: 160px; */
     text-align: center;
 }
 
-nav {
-    text-align: right;
+main {
+    margin-top: 10px;
+    flex-grow: 1;
 }
 
 a {
     color: #999;
-}
-
-nav a {
-    padding: 0 4px 0 5px;
-    color: #999;
-}
-
-main {
-    /* padding-top: 10px; */
-    margin-top: 10px;
-    flex-grow: 1;
 }
 
 article .date {
