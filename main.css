@@ -162,42 +162,6 @@ article hr {
     color: #999;
 }
 
-.post-list {
-    padding-left: 0px;
-}
-
-.post-list li {
-    list-style-type: none;
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.post-list li:hover {
-    list-style-type: none;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
-}
-
-.post-list li a {
-    padding: 10px 0 10px 0;
-    display: flex;
-    text-decoration: none;
-    justify-content: space-between;
-}
-
-.post-list li .meta {
-    color: #999;
-    text-align: right;
-}
-
-.atom-feed {
-    text-align: right;
-}
-
-.atom-feed a {
-    color: #999;
-}
-
 main {
     margin-bottom: 50px;
 }
@@ -223,6 +187,30 @@ h1 {
 
 #title {
     display: inline;
+}
+
+img#journal {
+    max-width: 100%;
+    display: block;
+    margin: 0 0 10px
+}
+
+main figure:first-child img { 
+    margin-left:-30px;
+    max-width:calc(100vw - 15px);
+    width:800px 
+}
+
+main figure > * { 
+    margin-bottom:30px 
+}
+
+main figure > div > * { 
+    margin-bottom:30px 
+}
+
+main figure figcaption { 
+    max-width:400px 
 }
 
 blockquote {

@@ -1,0 +1,26 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <script id="custom-useragent-string-page-script"/>
+    <channel>
+            <title>faen - journal</title>
+            <link>https://sademik.github.io/kainuu/site/journal.xml</link>
+            <description>the life and times of faen</description>
+            <lastBuildDate>Sat, 26 Feb 2022 00:00:00 -0700</lastBuildDate>
+        <image>
+            <url>https://sademik.github.io/kainuu/images/vessel.png</url>
+            <title>the life and times of faen</title>
+            <link>https://sademik.github.io/kainuu/site/journal.xml</link>
+        </image>
+        <item>
+            <title>RSS Test</title>
+            <link>https://sademik.github.io/kainuu/site/journal.xml</link>
+            <guid isPermaLink="false">001</guid>
+            <pubDate>Sat, 26 Feb 2022 00:00:00 -0700</pubDate>
+            <dc:creator>
+                <![CDATA[ Faensage ]]>
+            </dc:creator>
+            <description>
+                <![CDATA[ <img src='https://sademik.github.io/kainuu/images/feed/001.png'/> <p>This is a test RSS post.<br/><br/><a href='https://sademik.github.io/kainuu/site/journal.html'>journal</a></p> ]]>
+            </description>
+        </item>
+    </channel>
+</rss>
