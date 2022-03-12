@@ -14,4 +14,6 @@ a personal record of changes introduced in the 22D07 update
 
 22E14.2 — created/started my memex and made many changes to original posts by Kormyen, memex has been integrated into nav. added external link indicator to appropriate nav items
 
+22F01 — bug fixed: nav was pointing to the wrong location for various pages (due to changes made in 22D14.2 that weren't caught)
+
 —
