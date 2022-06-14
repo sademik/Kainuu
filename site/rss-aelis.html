@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# as: https://www.w3.org/ns/activitystreams# dc: http://purl.org/dc/terms/ schema: http://schema.org/ ">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="../main.css" />
+  <link rel="alternate" title="faen - posts" href="posts.xml" type="application/rss+xml" />
+  <title>kainuu</title>
+</head>
+<body>
+  <header about="https://faen.me" typeof="schema:WebPage">
+    <span property="og:title" content="faen.me"></span>
+    <span property="og:type" content="website"></span>
+    <nav>
+      <ul id="navigation">
+        <li><a href="../index.html">home</a></li>
+        <li><a href="https://drive.google.com/drive/folders/11_epvA2OtrLxljA5Qz2_VikyYqUhhGJ9?usp=sharing">directory &urcorn;</a></li>
+        <li><a href="">self &drcorn;</a>
+            <ul>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="reading.html">reading</a></li>
+                <li><a href="reverent.html">reverent</a></li>
+                <li><a href="journal.html">journal</a></li>
+                <li><a href="https://sademik.github.io/memex">memex &urcorn;</a></li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div>
+        <figure>
+            <img id="journal" src="../images/feed/002.png" alt="entry 002">
+            <h4>22L11 — aelis development</h4>
+            <p>one night, I was having a rough time sleeping. it has always been a struggle for me. as I was laying there, I got the idea to develop a small program that can record my answers to various questions regarding my sleep into a single .csv file. I sat down and began planning, even though it was just a small project.</p>
+            <img src="../images/aelis-questions.png" alt="aelis asking questions">
+            <p>aelis asks the questions shown above, and then stores the answers in a .csv file that is created by the aelis python script. I had never messed with using python to write to a file, so this was a really interesting learning experience for me. shown below is the contents of the .csv file after running aelis three times. upon each run, aelis will append the answers to the bottom of the .csv aelis log file.</p>
+            <img src="../images/aelis-log.png" alt="the aelis log file">
+            <p>from there, i am free to open the aelis log file in a program like libreoffice calc, and use the data in the .csv to graph things out. this will allow me to find the most efficient way for me to fall asleep, and hopefully after I've collected enough data, I'll find myself more rested.</p>
+            <img src="../images/aelis-incalc.png" alt="the aelis log file opened in libreoffice calc">
+            <p>I compiled aelis into a .exe file from a python script using pyinstaller, and designed the icon for it using dotgrid by <a href="https://100r.co/site/dotgrid.html">hundred rabbits</a>. this project is a beginner programming project designed to give me a goal and something to work on, and was heavily inspired by Devine Lu Linvega's own <a href="https://wiki.xxiivv.com/site/horaire.html">"horaire" time tracker</a>, though aelis doesn't resemble it whatsoever.</p>
+        </figure>
+    </div>
+  </main>
+  <footer>
+
+    <a href="https://webring.xxiivv.com/#random" target="_blank">
+      <img class="icon" src="../images/xxiivv-icon.lighter.svg" />
+    </a>
+    <p class="last">last edited 22F02 797:000</p>
+  </footer>
+</body>
+</html>
